@@ -1,0 +1,77 @@
+body{
+  margin: auto;
+}
+
+.main-div-body{
+  padding-top: 20px;
+  font-family: sans-serif;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px 2em;
+
+}
+
+.bg-color{
+  height: 100vh;
+  background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+
+}
+
+.main-div-images{
+grid-template-columns: 1fr;
+margin-top: 80px;
+margin-left: 50px;
+text-align:center;
+
+}
+
+ .main-div-border{
+  border: 2px solid black;
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px;
+  height: 50vh;
+  transition: all .5s;
+  transform: scale(1);
+}
+
+.images-cloud {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.images-cloud1{
+  width: 100px;
+  margin-left: 20px;
+}
+
+.images-cloud:hover {
+  content:url("img/night.png");
+}
+
+.images-cloud1:hover {
+  content:url("img/storm.png");
+}
+
+.main-div-first{
+  margin-left: 30px;
+}
+
+.main-div-last{
+  margin-right: 30px;
+}
+
+.main-div-border:hover{
+ border: 2px solid white;
+ padding: 10px 10px 10px 10px;
+ border-radius: 20px;
+ transform: scale(1.2);
+ margin-top: 60px;
+ transition: all .5s;
+}
+
+
+.degree-section{
+  display: flex;
+  align-items: center;
+}
